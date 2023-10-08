@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBlast</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400&family=Turret+Road&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container divnav">
+            <a href="" class="navbar-brand fs-3 byteblast">ByteBlast</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- landing -->
+
+    <section class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>
+                    Become a <span class="text-success">Web Developer</span>
+                </h1>
+                <p class="lead my-4">We strive to cultivate a community of lifelong learners and passionate coders who are well-prepared to tackle the challenges and opportunities of the tech world.</p>
+                <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#start">Get Started</button>
+            </div>
+                <img class="img-fluid d-none d-sm-block ms-5 img1" src="img/img1.svg" alt=""  width="400px">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-success p-5 ">
+        <div class="container serv align-items-center">
+            <p>At <span class="text-warning text-decoration-underline">ByteBlast Bootcamp</span>, we offer a comprehensive range of services to ensure our students' success on their journey to becoming proficient programmers.</p>
+        </div>
+    </section>
+
+
+    <section class="p-5">
+        <h1 class="text-dark text-center mb-5">Services</h2>
+        <div class="container">
+            <div class="row mb-lg-3 g-4" id="services_div">
+            
+            </div>
+
+            <div class="row g-4 mt-2" id="services2_div">
+            
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Learn -->
+    <section id="learn" class="p-5 bg-dark">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid img2" src="img/img2.png" alt="HTML, CSS, JS">
+                </div>
+                <div class="col-md p-5 text-light">
+                    <h2>Learn The Fundamentals</h2>
+                    <p class="lead">At <span class="text-warning">ByteBlast Bootcamp</span>, we offer a comprehensive curriculum that covers a diverse array of programming languages and technologies to ensure our students are well-rounded developers.</p>
+                    <p class="pclass" id="short_desc"> Our courses include intensive instruction in popular front-end technologies like <u>HTML</u>, <u>CSS</u>, and <u>JavaScript</u>, enabling students to build interactive and responsive web applications. On the back-end, students delve into server-side scripting with languages such as <u>PHP</u>, <u>Python</u> and <u>Node.js</u>, gaining proficiency in creating robust server architectures and APIs.</p>
+                    <p class="pclass" id="readmore_txt" style="display: none;"> Additionally, our curriculum explores database management with <u>SQL</u> and <u>NoSQL</u> databases, ensuring students have a solid foundation in data storage and retrieval. As programming is constantly evolving, we also introduce our students to emerging technologies and <u>frameworks</u>, preparing them to adapt and thrive in dynamic tech environments. Our goal is to provide a comprehensive and up-to-date education that empowers our students to excel in the ever-changing world of software development.</p>
+                    <a class="btn btn-light arow " id="readmore_btn"><i class="bi bi-chevron-right"></i> Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <section id="learn" class="p-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5 text-dark">
+                    <h2>Learn React JS</h2>
+                    <p class="lead">Our React.js course at ByteBlast Bootcamp is designed to take your web development skills to the next level. React.js is a powerful and widely-used JavaScript library for building user interfaces, and in this course, you'll master its intricacies. </p>
+                    <p id="short_desc2">Whether you're a beginner or an experienced developer looking to expand your skill set, our course offers a structured and hands-on learning experience. Throughout the course, you'll dive deep into React.js, starting with the fundamentals and progressively advancing to more complex topics. You'll learn how to create interactive and dynamic user interfaces efficiently. Our expert instructors will guide you through the core concepts of React, including components, state management, and the Virtual DOM, empowering you to build responsive and lightning-fast web applications.</p>
+                    <p id="readmore_txt2" style="display: none;">But it's not just about theory; you'll gain practical experience by working on real-world projects that mimic industry scenarios. These projects will not only reinforce your understanding of React but also provide you with a robust portfolio to showcase your skills to potential employers. By the end of the React.js course, you'll be well-prepared to create dynamic, modern web applications and position yourself as a sought-after React developer in the competitive tech industry. Join us at ByteBlast Bootcamp and take the first step towards becoming a React.js expert.</p>
+                    <a class="btn btn-dark arow" id="readmore_btn2"><i class="bi bi-chevron-right align-middle"></i> Read More</a>
+                </div>
+                
+                <div class="col-md d-flex justify-content-center">
+                    <img class="img-fluid img3" src="img/img3.png" alt="ReactJS">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Questions -->
+    <section class="py-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">FAQ'S (Frequently Asked Questions)</h2>
+            <div class="accordion accordion-flush">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                    Q1: What are the prerequisites for enrolling in ByteBlast Bootcamp?
+                </button>
+                </h2>
+                <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body"> ByteBlast Bootcamp welcomes individuals from all backgrounds, and no prior programming experience is required for our beginner-level courses. However, a strong desire to learn and a passion for coding are essential. For more advanced courses, some programming knowledge may be beneficial, and specific prerequisites will be outlined in the course descriptions.</div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                    Q2: How long are the bootcamp programs?
+                </button>
+                </h2>
+                <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body"> The duration of our bootcamp programs can vary depending on the specific course and whether you choose full-time or part-time study. Typically, our bootcamps range from 12 to 24 weeks, with full-time programs being more intensive and shorter in duration.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                    Q3: Is financial aid or scholarships available?
+                </button>
+                </h2>
+                <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body"> Yes, we offer various financial aid options, including scholarships, payment plans, and loans through our partnerships with financing institutions. Please reach out to our admissions team for more information on the available options and eligibility criteria.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+                    Q4: Can I attend ByteBlast Bootcamp remotely?
+                </button>
+                </h2>
+                <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body"> Yes, we offer both in-person and online bootcamp options to accommodate students from different locations and schedules. You can choose the format that best suits your needs.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
+                    Q5: What kind of support do you provide for job placement?
+                </button>
+                </h2>
+                <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body"> ByteBlast Bootcamp is dedicated to helping our graduates kickstart their careers. We offer job placement assistance, including resume reviews, interview preparation, and access to our network of industry connections. While we can't guarantee specific job placements, we work diligently to provide the resources and guidance needed for successful job searches.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-six">
+                    Q6: Are there opportunities to collaborate with peers and instructors?
+                </button>
+                </h2>
+                <div id="question-six" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body">Absolutely! Collaboration is encouraged at ByteBlast Bootcamp. We organize group projects, coding challenges, and hackathons to foster teamwork and enhance your problem-solving skills. Our instructors are also readily available to provide guidance and support throughout your journey</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-seven">
+                    Q7: What happens after I graduate from ByteBlast Bootcamp?
+                </button>
+                </h2>
+                <div id="question-seven" class="accordion-collapse collapse" data-bs-parent="#questions">
+                <div class="accordion-body"> Upon graduation, you'll receive a certificate of completion, and you'll have access to our alumni network and resources. Many of our graduates secure positions in the tech industry, but your learning journey doesn't end there. You'll continue to have access to our learning materials, keeping you up-to-date with the latest technologies and trends in programming.</div>
+                </div>
+            </div>
+</div>
+
+            <p class="mt-5">If you have any additional questions or need further information, please don't hesitate to contact our admissions team. We're here to help you embark on your programming journey with ByteBlast Bootcamp.</p>
+        </div>
+    </section>
+
+
+<!-- instructors -->
+
+    <section class="p-5 bg-light" id="instructors">
+        <div class="container">
+            <h2 class="text-center text-dark">Our Instructors</h2>
+            <p class="lead text-dark mb-5">At ByteBlast Bootcamp, our instructors are the driving force behind your learning experience. They are industry professionals with a wealth of knowledge and a passion for teaching. Here's a glimpse of the talented individuals who will guide you through your coding journey:</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark">
+                        <div class="card-body text-center text-white">
+                            <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Mike Patel</h3>
+                            <p class="card-text">
+                                <li> Expertise: DevOps and Cloud Computing</li>
+                                <li> Background: With extensive experience in cloud platforms like AWS, Azure, and Google Cloud, Mike is dedicated to teaching students the principles of DevOps, automation, and infrastructure as code.</li>
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark">
+                        <div class="card-body text-center text-white">
+                            <img src="https://randomuser.me/api/portraits/women/8.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Sarah Rodriguez</h3>
+                            <p class="card-text">
+                                <li>Expertise: Full-Stack Web Development</li>
+                                <li>Background: With over a decade of experience in web development, Sarah has worked with renowned tech companies and startups. Her expertise spans from front-end technologies like React and Angular to back-end frameworks like Node.js.</li>
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark">
+                        <div class="card-body text-center text-white">
+                            <img src="https://randomuser.me/api/portraits/women/17.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Linda Nguyen</h3>
+                            <p class="card-text">
+                                <li>Expertise: UX/UI Design</li>
+                                <li> Background: Linda is a seasoned UX/UI designer with a portfolio of user-centric design projects. She will introduce you to the principles of design thinking, user research, and prototyping..</li>
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark">
+                        <div class="card-body text-center text-white">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Emily Turner</h3>
+                            <p class="card-text">
+                                <li>Expertise: Mobile App Development (iOS and Android)</li>
+                                <li>Background: Emily has a strong track record in mobile app development, having contributed to several successful apps on both the iOS and Android platforms. She specializes in Swift, Kotlin, and Flutter.</li>
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-white mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- aboutus -->
+    <section class="p-5 background_section position-relative" id="about">
+        <div class="container text-white justify-content-between ">
+            <div class="row gap">
+                    <div class="aboutus rounded p-3 lh-lg col-lg-6 col-sm-12">
+                        <h2 class="fw-bold">About ByteBlast Bootcamp</h2>
+                        <p>Welcome to <span class="text-warning">ByteBlast Bootcamp </span>, where your coding journey begins and your tech career takes flight! We are a leading technology education institution committed to providing aspiring programmers and tech enthusiasts with the skills, knowledge, and confidence needed to thrive in the ever-evolving world of technology.</p>
+                    
+                        <h3 class="fw-bold">Our Mission</h3>
+                        <p>At ByteBlast Bootcamp, our mission is simple yet profound: to <u>empower individuals</u> with the ability to code, innovate, and shape the digital future. We believe that anyone, regardless of their background or prior experience, can become a <u>proficient programmer</u> and make a meaningful impact in the tech industry.</p>
+                    </div>
+
+                <div class="col-lg-6 col-sm-12 align-self-end  ps-lg-5 mt-sm-4 aboutus2 border-bottom border-end ">
+                    <h2 class="border-bottom border-warning ">Join Us on Your Coding Journey</h2>
+                    <p>Whether you're looking to launch a new career in tech, upskill for your current job, or simply explore the exciting world of programming, ByteBlast Bootcamp is your partner on this transformative journey. We're here to guide, inspire, and support you as you embark on a path to becoming a proficient developer.</p>
+                    <p>Ready to start coding? Join ByteBlast Bootcamp, and let's write your success story in lines of code!</p>
+                </div>
+            </div>
+                    
+                
+
+        
+        </div>
+
+          <!-- newsletter -->
+
+    <section class=" text-light mt-5 p-3 border border-success-subtle rounded">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter email">
+
+                    <button class="btn btn-warning btn-lg" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    
+    
+
+    <!-- contact -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Admissions Email:</span> For inquiries about enrollment, prerequisites, and program details, please contact our admissions team at <span class="text-warning">admissions@byteblastbootcamp.com.</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Support Email:</span> If you need technical support, have questions about your coursework, or encounter any issues during your bootcamp, don't hesitate to reach out to our support team at <span class="text-warning">support@byteblastbootcamp.com.</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone:</span> You can also speak with one of our representatives by calling our dedicated phone line at <span class="text-warning">63-123-4567.</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Visit Us:</span> If you're in the area or prefer in-person meetings, you can schedule an appointment to visit our campus at<span class="text-warning"> 123 Coding Lane, Bonifacio Global City.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container col-md mt-sm-3  iframe_div">
+                    <iframe class="align-self-start" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7723.896447744437!2d121.0540097194092!3d14.544953537225142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1696679112620!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- footerr -->
+
+    <footer class="p-3 bg-dark text-center text-light position-relative">
+        <div class="container">
+            <div class="fs-5 mb-1">
+                <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-white mx-1"></i>
+                </a>
+            </div>
+            <div class="mb-1 fs-5 class_a">
+                <a href="#">Info</a> &#8901; 
+                <a href="#">Support</a> &#8901; 
+                <a href="#">Courses</a>
+            </div>
+            <p class="lead fs-6">Copyright &copy; 2023 ByteBlast Bootcamp</p>
+            <a href="" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1 text-warning"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="start" tabindex="-1" aria-labelledby="startLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="startLabel">Start now</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill out the form below to start your coding journey with us.</p>
+        <form action="">
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">First Name:</label>
+                <input type="text" class="form-control" id="first-name">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="number" class="form-control" id="phone">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="services.js"></script>
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>

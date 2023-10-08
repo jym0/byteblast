@@ -1,0 +1,103 @@
+*{
+  font-family: 'Battambang', cursive;
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.byteblast{
+  font-family: 'Turret Road', cursive;
+}
+
+.divnav ul li a{
+  font-family: 'Battambang', cursive;
+  font-size: 1rem;
+}
+.img1{
+    filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.377));
+    animation: scaleAnimation 5s ease-in-out infinite;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(0.8); 
+  }
+  50% {
+    transform: scale(0.9); 
+  }
+  100% {
+    transform: scale(0.8); 
+  }
+}
+
+
+
+.img2{
+    filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.226));
+}
+
+.img3{
+    object-fit: cover;
+    object-position:left;
+    border-radius: 20px;
+    width: 380px;
+    height: 320px;
+    filter: drop-shadow(5px 5px 10px rgba(24, 21, 21, 0.164));
+}
+
+.serv{
+  font-size: 0.9rem;
+}
+
+u {
+  text-decoration-color: orange;
+}
+.arow i::before{
+  vertical-align: middle;
+}
+
+.background_section {
+  background-image: url("img/about-img2.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: blur(10px);
+}
+
+
+.iframe_div iframe{
+    border-radius: 16px;
+    margin-left: 50px;
+    width: 600px;
+    height: 450px;
+}
+
+.aboutus{
+  box-shadow: 1px 1px 2px 3px rgba(24, 21, 21, 0.479);
+}
+.class_a a{
+  text-decoration: none;
+  color: white;
+}
+.class_a a:hover{
+  text-decoration: underline;
+}
+
+
+@media (max-width:760px){
+    .img1{
+        width: 250px;
+    }
+    .iframe_div iframe{
+      margin-left: 0;
+      width: 500px;
+    }
+}
+@media (min-width:760px){
+    .news-input{
+        width: 50%;
+    }
+}
